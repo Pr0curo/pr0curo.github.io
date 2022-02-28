@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://blog.jan-helbig.de/posts/initial_post/</loc>
+    <loc>https://pr0curo.github.io/posts/initial_post/</loc>
     <lastmod>2022-02-28T18:41:02+01:00</lastmod>
   </url><url>
-    <loc>http://blog.jan-helbig.de/</loc>
+    <loc>https://pr0curo.github.io/</loc>
     <lastmod>2022-02-28T18:41:02+01:00</lastmod>
   </url><url>
-    <loc>http://blog.jan-helbig.de/posts/</loc>
+    <loc>https://pr0curo.github.io/posts/</loc>
     <lastmod>2022-02-28T18:41:02+01:00</lastmod>
   </url><url>
-    <loc>http://blog.jan-helbig.de/about/</loc>
+    <loc>https://pr0curo.github.io/about/</loc>
     <lastmod>2022-02-28T17:18:52+01:00</lastmod>
   </url><url>
-    <loc>http://blog.jan-helbig.de/categories/</loc>
+    <loc>https://pr0curo.github.io/categories/</loc>
   </url><url>
-    <loc>http://blog.jan-helbig.de/tags/</loc>
+    <loc>https://pr0curo.github.io/tags/</loc>
   </url>
 </urlset>
