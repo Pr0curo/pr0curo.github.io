@@ -6,15 +6,28 @@
     <description>Recent content in Posts on Mein Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Mon, 28 Feb 2022 19:12:47 +0100</lastBuildDate><atom:link href="https://pr0curo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Feb 2022 21:54:31 +0100</lastBuildDate><atom:link href="https://pr0curo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Live_log_file_view</title>
+      <title>CMake &#43; VSCode include Path(s) finden lassen</title>
+      <link>https://pr0curo.github.io/posts/cmake-vscode-include_paths_finden_lassen/</link>
+      <pubDate>Mon, 28 Feb 2022 21:54:31 +0100</pubDate>
+      
+      <guid>https://pr0curo.github.io/posts/cmake-vscode-include_paths_finden_lassen/</guid>
+      <description>Beim Arbeiten mit VSCode und C++ fällt unweigerlich früher oder später auf, dass viele Header-Datein nicht gefunden werden. Dabei wird, wenn CMake als MetaBuildSystem verwendet wird, die Information ja bereits zusammengetragen.
+Bisher war es jedoch schwierig Information mit VSCode so zu teilen, dass nichts händisch nachgetragen werden muss. Zumindest bis ich folgende Frage+Antwort auf stackoverflow fand: https://stackoverflow.com/questions/36122358/visual-studio-code-c-include-path.
+Zusammengefasst: in der CmakeLists.txt folgende Option aktivieren
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)) und anschließend im Projektordner unter .</description>
+    </item>
+    
+    <item>
+      <title>Live Logfile-View</title>
       <link>https://pr0curo.github.io/posts/live_log_file_view/</link>
       <pubDate>Mon, 28 Feb 2022 19:12:47 +0100</pubDate>
       
       <guid>https://pr0curo.github.io/posts/live_log_file_view/</guid>
-      <description>unter Linux/MSys2 Umgebungen:
-tail -f &amp;lt;pfad&amp;gt;</description>
+      <description>Innerhalb einer Linux/MSys2 Umgebung
+tail -f &amp;lt;pfad&amp;gt;
+eingeben, um laufend über neue Einträge im Logfile informiert zu werden.</description>
     </item>
     
     <item>
