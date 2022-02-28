@@ -6,7 +6,18 @@
     <description>Recent content on Mein Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Mon, 28 Feb 2022 18:41:02 +0100</lastBuildDate><atom:link href="https://pr0curo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Feb 2022 18:58:13 +0100</lastBuildDate><atom:link href="https://pr0curo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python/Flask Environment</title>
+      <link>https://pr0curo.github.io/posts/python_flask_environment/</link>
+      <pubDate>Mon, 28 Feb 2022 18:58:13 +0100</pubDate>
+      
+      <guid>https://pr0curo.github.io/posts/python_flask_environment/</guid>
+      <description>Zum erstellen der Environment zum erfolgreichen Python programmieren ist es mittlerweile ein umfangreicher Weg.
+Umfänglich beschrieben ist dieser Weg hier: https://cjolowicz.github.io/posts/hypermodern-python-01-setup/ Zum aktuellen Stand gibt es noch keine Veränderungen. Wer Poetry zum handeln der virtuellen Umgebung nicht nutzen möchte kann ohne Probleme zu pipenv greifen.
+Unter Pop!_OS muss beachtet werden, dass die pyenv etwas an Vorbereitung benötigt. Die notwendigen Bibliotheken (respektive der Befehl zur Installation dieser ist hier zu finden: https://github.</description>
+    </item>
+    
     <item>
       <title>Initial_post</title>
       <link>https://pr0curo.github.io/posts/initial_post/</link>
@@ -14,15 +25,6 @@
       
       <guid>https://pr0curo.github.io/posts/initial_post/</guid>
       <description>der erste Eintrag</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://pr0curo.github.io/about/</link>
-      <pubDate>Mon, 28 Feb 2022 17:18:52 +0100</pubDate>
-      
-      <guid>https://pr0curo.github.io/about/</guid>
-      <description>hier ist alles bereit für &amp;ldquo;About&amp;rdquo;</description>
     </item>
     
   </channel>
