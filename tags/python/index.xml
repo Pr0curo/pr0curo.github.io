@@ -1,0 +1,97 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Jans Blog</title>
+    <link>https://pr0curo.github.io/tags/python/</link>
+    <description>Recent content in python on Jans Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright 2022 Jan Helbig</copyright>
+    <lastBuildDate>Thu, 06 Jan 2022 18:58:13 +0100</lastBuildDate>
+    
+        <atom:link href="https://pr0curo.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Live Logfile-View</title>
+      <link>https://pr0curo.github.io/posts/live_log_file_view/</link>
+      <pubDate>Mon, 28 Feb 2022 19:12:47 +0100</pubDate>
+      
+      <guid>https://pr0curo.github.io/posts/live_log_file_view/</guid>
+      <description>&lt;p&gt;Innerhalb einer Linux/MSys2 Umgebung&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;tail -f &amp;lt;pfad&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;eingeben, um laufend über neue Einträge im Logfile informiert zu werden.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://pr0curo.github.io/about/</link>
+      <pubDate>Mon, 28 Feb 2022 17:18:52 +0100</pubDate>
+      
+      <guid>https://pr0curo.github.io/about/</guid>
+      <description>&lt;p&gt;hier ist alles bereit für &amp;ldquo;About&amp;rdquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python/Flask Environment</title>
+      <link>https://pr0curo.github.io/posts/python_flask_environment/</link>
+      <pubDate>Thu, 06 Jan 2022 18:58:13 +0100</pubDate>
+      
+      <guid>https://pr0curo.github.io/posts/python_flask_environment/</guid>
+      <description>&lt;p&gt;Zum erstellen der Environment zum erfolgreichen Python programmieren ist es mittlerweile ein umfangreicher Weg.&lt;/p&gt;
+&lt;p&gt;Umfänglich beschrieben ist dieser Weg hier:
+&lt;code&gt;https://cjolowicz.github.io/posts/hypermodern-python-01-setup/&lt;/code&gt;
+Zum aktuellen Stand gibt es noch keine Veränderungen. Wer Poetry zum handeln der virtuellen Umgebung nicht
+nutzen möchte kann ohne Probleme zu pipenv greifen.&lt;/p&gt;
+&lt;p&gt;Unter Pop!_OS muss beachtet werden, dass die pyenv etwas an Vorbereitung benötigt. Die notwendigen Bibliotheken
+(respektive der Befehl zur Installation dieser ist hier zu finden:
+&lt;code&gt;https://github.com/pyenv/pyenv/wiki#suggested-build-environment&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CMake &#43; VSCode include Path(s) finden lassen</title>
+      <link>https://pr0curo.github.io/posts/cmake-vscode-include_paths_finden_lassen/</link>
+      <pubDate>Sun, 09 Aug 2020 21:54:31 +0100</pubDate>
+      
+      <guid>https://pr0curo.github.io/posts/cmake-vscode-include_paths_finden_lassen/</guid>
+      <description>&lt;p&gt;Beim Arbeiten mit VSCode und C++ fällt unweigerlich früher oder später auf, dass viele Header-Datein nicht gefunden werden. Dabei wird, wenn CMake als MetaBuildSystem verwendet wird, die Information ja bereits zusammengetragen.&lt;/p&gt;
+&lt;p&gt;Bisher war es jedoch schwierig Information mit VSCode so zu teilen, dass nichts händisch nachgetragen werden muss. Zumindest bis ich folgende Frage+Antwort auf stackoverflow fand:
+&lt;a href=&#34;https://stackoverflow.com/questions/36122358/visual-studio-code-c-include-path&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://stackoverflow.com/questions/36122358/visual-studio-code-c-include-path&lt;/a&gt;
+.&lt;/p&gt;
+&lt;h2 id=&#34;zusammengefasst&#34;&gt;Zusammengefasst:&lt;/h2&gt;
+&lt;p&gt;in der CmakeLists.txt folgende Option aktivieren&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;set(CMAKE_EXPORT_COMPILE_COMMANDS ON))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;und anschließend im Projektordner unter .vscode/c_cpp_properties.json folgenden Sclüssel einfügen/ergänzen:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;quot;compileCommands&amp;quot;: &amp;quot;${workspaceFolder}&amp;lt;bath_to_build&amp;gt;/compile_commands.json&amp;quot;,     
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;nach dem nächsten Build erhält VSCode die Information über die verwendeten Include Paths.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The worst tool for the job</title>
+      <link>https://pr0curo.github.io/posts/worst_tool_for_the_job/</link>
+      <pubDate>Tue, 28 Jul 2020 19:01:54 +0100</pubDate>
+      
+      <guid>https://pr0curo.github.io/posts/worst_tool_for_the_job/</guid>
+      <description>&lt;p&gt;Gefunden am 28.07.2020 auf yc&lt;/p&gt;
+&lt;p&gt;Interessanter Gedankengang:
+bei neuen Werkzeugen zuerst die günstigste Variante kaufen und nur wenn sich das Werkzeug bewährt und verschleißt oder kaputt geht, auf die teuerste Variante umsteigen[1].&lt;/p&gt;
+&lt;p&gt;[1] &lt;a href=&#34;https://www.johndcook.com/blog/2020/07/25/worst-tool-for-the-job/&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://www.johndcook.com/blog/2020/07/25/worst-tool-for-the-job/&lt;/a&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Initial_post</title>
+      <link>https://pr0curo.github.io/posts/initial_post/</link>
+      <pubDate>Tue, 28 Jul 2020 18:41:02 +0100</pubDate>
+      
+      <guid>https://pr0curo.github.io/posts/initial_post/</guid>
+      <description>&lt;p&gt;der erste Eintrag&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
