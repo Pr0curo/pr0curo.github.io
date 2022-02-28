@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Mein Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Mon, 28 Feb 2022 18:58:13 +0100</lastBuildDate><atom:link href="https://pr0curo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Feb 2022 19:01:54 +0100</lastBuildDate><atom:link href="https://pr0curo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Worst_tool_for_the_job</title>
+      <link>https://pr0curo.github.io/posts/worst_tool_for_the_job/</link>
+      <pubDate>Mon, 28 Feb 2022 19:01:54 +0100</pubDate>
+      
+      <guid>https://pr0curo.github.io/posts/worst_tool_for_the_job/</guid>
+      <description>Gefunden am 28.07.2020 auf yc
+Interessanter Gedankengang: bei neuen Werkzeugen zuerst die günstigste Variante kaufen und nur wenn sich das Werkzeug bewährt und verschleißt oder kaputt geht, auf die teuerste Variante umsteigen[1].
+[1] https://www.johndcook.com/blog/2020/07/25/worst-tool-for-the-job/</description>
+    </item>
+    
     <item>
       <title>Python/Flask Environment</title>
       <link>https://pr0curo.github.io/posts/python_flask_environment/</link>
