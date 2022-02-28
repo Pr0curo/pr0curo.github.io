@@ -6,9 +6,19 @@
     <description>Recent content on Mein Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Mon, 28 Feb 2022 19:01:54 +0100</lastBuildDate><atom:link href="https://pr0curo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Feb 2022 19:12:47 +0100</lastBuildDate><atom:link href="https://pr0curo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Worst_tool_for_the_job</title>
+      <title>Live_log_file_view</title>
+      <link>https://pr0curo.github.io/posts/live_log_file_view/</link>
+      <pubDate>Mon, 28 Feb 2022 19:12:47 +0100</pubDate>
+      
+      <guid>https://pr0curo.github.io/posts/live_log_file_view/</guid>
+      <description>unter Linux/MSys2 Umgebungen:
+tail -f &amp;lt;pfad&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>The worst tool for the job</title>
       <link>https://pr0curo.github.io/posts/worst_tool_for_the_job/</link>
       <pubDate>Mon, 28 Feb 2022 19:01:54 +0100</pubDate>
       
