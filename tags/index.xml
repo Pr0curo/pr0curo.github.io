@@ -5,7 +5,6 @@
     <link>http://blog.jan-helbig.de/tags/</link>
     <description>Recent content in Tags on Mein Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de-de</language>
-    <copyright>© Jan Helbig 2022</copyright><atom:link href="http://blog.jan-helbig.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>de-de</language><atom:link href="http://blog.jan-helbig.de/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
